@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muthu Venkatesh P | Mechanical Engineer Portfolio</title>
+    <meta name="description" content="Personal Portfolio of Muthu Venkatesh P, Mechanical Engineer specializing in CAD Modeling, SolidWorks, AutoCAD, and ANSYS Structural Analysis.">
+    
+    <!-- Google Fonts: Outfit & Space Grotesk -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Gradient Orbs -->
+    <div class="orbs-container">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+    
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+
+    <!-- Header & Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-accent">M</span>uthu <span class="logo-accent">V</span>enkatesh
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#timeline" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#certifications" class="nav-link">Certificates</a>
+                <a href="#contact" class="nav-link btn-contact">Contact</a>
+            </nav>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content reveal-on-scroll slide-left">
+                    <span class="hero-badge">Mechanical Engineering</span>
+                    <h1 class="hero-title">Muthu Venkatesh P</h1>
+                    <h2 class="hero-subtitle">Specializing in <span class="typewriter" id="typewriter" data-words='["3D Modeling", "ANSYS Analysis", "Additive Manufacturing", "Product Design"]'></span><span class="cursor">|</span></h2>
+                    <p class="hero-desc">
+                        Aspiring Mechanical Engineer driven by curiosity and a passion for understanding complex mechanical systems. Possesses a proactive mindset, strong technical fundamentals, and a commitment to continuous learning.
+                    </p>
+                    
+                    <div class="hero-actions">
+                        <a href="#projects" class="primary-btn">View My Projects <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#contact" class="secondary-btn">Let's Connect</a>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/muthu-venkatesh-p-b51364289" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:muthuvenkatesh2207@gmail.com" aria-label="Email" class="social-icon">
+                            <i class="fa-regular fa-envelope"></i>
+                        </a>
+                        <a href="tel:+919444819675" aria-label="Phone" class="social-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrapper reveal-on-scroll slide-right">
+                    <div class="image-frame">
+                        <img src="photo.jpeg" alt="Muthu Venkatesh P" class="profile-img">
+                        <div class="frame-glow"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="#about" class="scroll-down" aria-label="Scroll Down">
+                <span class="mouse">
+                    <span class="wheel"></span>
+                </span>
+                <span class="scroll-text">Scroll Down</span>
+            </a>
+        </section>
+
+        <!-- About & Summary Section -->
+        <section id="about" class="about-section">
+            <div class="section-container">
+                <div class="section-header reveal-on-scroll">
+                    <span class="subtitle">Get To Know Me</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card card-summary reveal-on-scroll">
+                        <div class="card-icon"><i class="fa-solid fa-user-gear"></i></div>
+                        <h3>Professional Summary</h3>
+                        <p>
+                            I possess a proactive mindset, strong technical fundamentals, and a commitment to continuous learning. I am seeking opportunities to contribute meaningfully to engineering teams while enhancing my practical and industry-oriented skills in mechanical design and analysis.
+                        </p>
+                    </div>
+
+                    <div class="about-card card-traits reveal-on-scroll">
+                        <div class="card-icon"><i class="fa-solid fa-compass-drafting"></i></div>
+                        <h3>Personality Traits</h3>
+                        <div class="traits-container">
+                            <div class="trait-tag"><i class="fa-solid fa-shield-halved"></i> Disciplined</div>
+                            <div class="trait-tag"><i class="fa-solid fa-shuffle"></i> Adaptable</div>
+                            <div class="trait-tag"><i class="fa-solid fa-clock"></i> Punctual</div>
+                        </div>
+                    </div>
+
+                    <div class="about-card card-languages reveal-on-scroll">
+                        <div class="card-icon"><i class="fa-solid fa-language"></i></div>
+                        <h3>Languages</h3>
+                        <div class="language-bars">
+                            <div class="lang-item">
+                                <div class="lang-info">
+                                    <span>English</span>
+                                    <span>Professional</span>
+                                </div>
+                                <div class="progress-track"><div class="progress-bar" style="width: 85%"></div></div>
+                            </div>
+                            <div class="lang-item">
+                                <div class="lang-info">
+                                    <span>Tamil</span>
+                                    <span>Native</span>
+                                </div>
+                                <div class="progress-track"><div class="progress-bar" style="width: 95%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Education Timeline -->
+        <section id="timeline" class="timeline-section">
+            <div class="section-container">
+                <div class="section-header reveal-on-scroll">
+                    <span class="subtitle">My Journey</span>
+                    <h2 class="section-title">Education & Internship</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="timeline-container">
+                    <div class="timeline-line"></div>
+                    
+                    <!-- BE Mechanical -->
+                    <div class="timeline-item left reveal-on-scroll">
+                        <div class="timeline-marker"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="timeline-content glassmorphism">
+                            <span class="timeline-date">2023 - Present</span>
+                            <h3>BE Mechanical Engineering</h3>
+                            <h4 class="timeline-org">National Engineering College</h4>
+                            <p class="timeline-location"><i class="fa-solid fa-location-dot"></i> Kovilpatti, Tamil Nadu</p>
+                            <div class="timeline-badge">CGPA: 7.25</div>
+                        </div>
+                    </div>
+
+                    <!-- Internship -->
+                    <div class="timeline-item right reveal-on-scroll">
+                        <div class="timeline-marker"><i class="fa-solid fa-briefcase"></i></div>
+                        <div class="timeline-content glassmorphism">
+                            <span class="timeline-date">Internship</span>
+                            <h3>Reyna Lifting Equipments</h3>
+                            <h4 class="timeline-org">Industrial Internship</h4>
+                            <p class="timeline-location"><i class="fa-solid fa-location-dot"></i> Trichy, Tamil Nadu</p>
+                            <ul class="timeline-bullets">
+                                <li>Gained hands-on exposure to design tools and industrial machinery equipment.</li>
+                                <li>Understood working principles of wind energy generation and power transmission systems.</li>
+                                <li><strong>Key Project:</strong> Developed a model/concept for <em>Blade Cleaning Equipment for Wind Turbines</em>.</li>
+                            </ul>
+                            <div class="timeline-actions" style="margin-top: 15px; display: flex; justify-content: flex-start;">
+                                <a href="internship_certificate.pdf" target="_blank" class="secondary-btn" style="padding: 6px 12px; font-size: 0.8rem; border-radius: 6px; border-color: rgba(0, 210, 255, 0.25); color: var(--blue-accent); display: inline-flex; align-items: center; gap: 6px;">
+                                    <i class="fa-regular fa-file-pdf"></i> View Internship Proof
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- HSC -->
+                    <div class="timeline-item left reveal-on-scroll">
+                        <div class="timeline-marker"><i class="fa-solid fa-school"></i></div>
+                        <div class="timeline-content glassmorphism">
+                            <span class="timeline-date">2022 - 2023</span>
+                            <h3>HSC (Higher Secondary Certificate)</h3>
+                            <h4 class="timeline-org">Sri Jayendra Golden Jubilee School</h4>
+                            <p class="timeline-location"><i class="fa-solid fa-location-dot"></i> Tirunelveli, Tamil Nadu</p>
+                            <div class="timeline-badge">Percentage: 69.5%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="section-container">
+                <div class="section-header reveal-on-scroll">
+                    <span class="subtitle">Innovative Work</span>
+                    <h2 class="section-title">Projects Showcase</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card reveal-on-scroll">
+                        <div class="project-img-placeholder p-img-1">
+                            <i class="fa-solid fa-arrows-spin"></i>
+                            <div class="overlay-glow"></div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">CAD & 3D Printing</span>
+                            <h3>Scotch Yoke Mechanism</h3>
+                            <p class="project-summary-desc">Designed, modeled and fabricated a Scotch Yoke Mechanism for rotary-to-linear conversion and kinematic analysis.</p>
+                            <button class="btn-learn-more" data-project="scotch-yoke">Learn More <i class="fa-solid fa-arrow-right-long"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card reveal-on-scroll">
+                        <div class="project-img-placeholder p-img-2">
+                            <i class="fa-solid fa-faucet-drip"></i>
+                            <div class="overlay-glow"></div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Product Development</span>
+                            <h3>Portable Multistage Filter</h3>
+                            <p class="project-summary-desc">Designed an inlet-mounted radial filter for overhead water tanks to remove impurities and sediment.</p>
+                            <button class="btn-learn-more" data-project="multistage-filter">Learn More <i class="fa-solid fa-arrow-right-long"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card reveal-on-scroll">
+                        <div class="project-img-placeholder p-img-3">
+                            <i class="fa-solid fa-chart-line"></i>
+                            <div class="overlay-glow"></div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">FEA & ANSYS</span>
+                            <h3>Sprocket Analysis</h3>
+                            <p class="project-summary-desc">Performed structural & fatigue simulation under load comparing sprocket materials to determine lifecycle.</p>
+                            <button class="btn-learn-more" data-project="sprocket-analysis">Learn More <i class="fa-solid fa-arrow-right-long"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills & Interests -->
+        <section id="skills" class="skills-section">
+            <div class="section-container">
+                <div class="section-header reveal-on-scroll">
+                    <span class="subtitle">Capabilities</span>
+                    <h2 class="section-title">Skills & Interests</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Technical Skills -->
+                    <div class="skills-card glassmorphism reveal-on-scroll">
+                        <h3>Technical Skills</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>SolidWorks <small>(Part Modelling & Assembly)</small></span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-track"><div class="skill-bar" style="width: 90%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>AutoCAD</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-track"><div class="skill-bar" style="width: 85%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Ansys <small>(Static Structural & Fatigue)</small></span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-track"><div class="skill-bar" style="width: 80%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Areas of Interest -->
+                    <div class="interests-card glassmorphism reveal-on-scroll">
+                        <h3>Areas of Interest</h3>
+                        <div class="interests-grid">
+                            <div class="interest-box">
+                                <i class="fa-solid fa-cube"></i>
+                                <span>Additive Manufacturing</span>
+                            </div>
+                            <div class="interest-box">
+                                <i class="fa-solid fa-gears"></i>
+                                <span>Manufacturing Process</span>
+                            </div>
+                            <div class="interest-box">
+                                <i class="fa-solid fa-industry"></i>
+                                <span>Production Systems</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications -->
+        <section id="certifications" class="cert-section">
+            <div class="section-container">
+                <div class="section-header reveal-on-scroll">
+                    <span class="subtitle">Verified Accomplishments</span>
+                    <h2 class="section-title">Certifications</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="cert-grid">
+                    <!-- Cert 1 -->
+                    <div class="cert-card glassmorphism reveal-on-scroll cert-interactive" data-cert="additive-manufacturing">
+                        <div class="cert-badge"><i class="fa-solid fa-certificate"></i></div>
+                        <h3>Additive Manufacturing Associate</h3>
+                        <span class="cert-org">Dassault Syst&egrave;mes</span>
+                        <p class="cert-desc">Certified credential validating proficiency in SolidWorks-based additive manufacturing design constraints, slicing configurations, and FDM/SLA/SLS processes.</p>
+                        <span class="cert-view-link">View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                    </div>
+
+                    <!-- Cert 2 -->
+                    <div class="cert-card glassmorphism reveal-on-scroll">
+                        <div class="cert-badge"><i class="fa-solid fa-award"></i></div>
+                        <h3>Fundamental of Automotive System</h3>
+                        <span class="cert-org">NPTEL | IIT Madras</span>
+                        <p class="cert-desc">Comprehensive certification covering internal combustion engines, drivetrain, chassis design, braking configurations, and automotive suspension systems.</p>
+                        <a href="nptel_automotive_systems.pdf" target="_blank" class="cert-view-link">View Certificate PDF <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                    <!-- Cert 3 -->
+                    <div class="cert-card glassmorphism reveal-on-scroll">
+                        <div class="cert-badge"><i class="fa-solid fa-award"></i></div>
+                        <h3>Automation in Manufacturing</h3>
+                        <span class="cert-org">NPTEL | IIT Guwahati</span>
+                        <p class="cert-desc">Focused on industrial automation, CNC machining control systems, hydraulics & pneumatics, and sensor integrations in high-volume production lines.</p>
+                        <a href="nptel_automation_manufacturing.pdf" target="_blank" class="cert-view-link">View Certificate PDF <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                    <!-- Cert 4 -->
+                    <div class="cert-card glassmorphism reveal-on-scroll">
+                        <div class="cert-badge"><i class="fa-solid fa-award"></i></div>
+                        <h3>Work System & Design</h3>
+                        <span class="cert-org">NPTEL | IIT Roorkee</span>
+                        <p class="cert-desc">Covers ergonomics, motion study, work measurement, workplace layout optimization, and human factors engineering.</p>
+                        <a href="nptel_work_system_design.pdf" target="_blank" class="cert-view-link">View Certificate PDF <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                    <!-- Cert 5 -->
+                    <div class="cert-card glassmorphism reveal-on-scroll">
+                        <div class="cert-badge"><i class="fa-solid fa-award"></i></div>
+                        <h3>Technical English for Engineers</h3>
+                        <span class="cert-org">NPTEL | IIT Madras</span>
+                        <p class="cert-desc">Certification focused on technical writing, project proposal structures, and professional presentation techniques for engineering contexts.</p>
+                        <a href="nptel_technical_english.pdf" target="_blank" class="cert-view-link">View Certificate PDF <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="section-container">
+                <div class="section-header reveal-on-scroll">
+                    <span class="subtitle">Get In Touch</span>
+                    <h2 class="section-title">Contact Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Info Panel -->
+                    <div class="contact-info-panel glassmorphism reveal-on-scroll">
+                        <h3>Contact Information</h3>
+                        <p>Feel free to reach out for internship opportunities, project collaborations, or engineering queries!</p>
+                        
+                        <div class="info-items">
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fa-regular fa-envelope"></i></div>
+                                <div class="info-details">
+                                    <span>Email Address</span>
+                                    <a href="mailto:muthuvenkatesh2207@gmail.com" class="info-value">muthuvenkatesh2207@gmail.com</a>
+                                    <button class="btn-copy" data-copy="muthuvenkatesh2207@gmail.com" aria-label="Copy email"><i class="fa-regular fa-copy"></i> Copy</button>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                                <div class="info-details">
+                                    <span>Mobile Number</span>
+                                    <a href="tel:+919444819675" class="info-value">+91 9444819675</a>
+                                    <button class="btn-copy" data-copy="+919444819675" aria-label="Copy phone"><i class="fa-regular fa-copy"></i> Copy</button>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="info-details">
+                                    <span>Location</span>
+                                    <span class="info-value">Tirunelveli, Tamil Nadu, India</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-panel glassmorphism reveal-on-scroll">
+                        <h3>Send a Message</h3>
+                        <form id="contact-form">
+                            <div class="input-group">
+                                <input type="text" id="name" required placeholder=" ">
+                                <label for="name">Your Name</label>
+                                <span class="input-line"></span>
+                            </div>
+                            <div class="input-group">
+                                <input type="email" id="email" required placeholder=" ">
+                                <label for="email">Email Address</label>
+                                <span class="input-line"></span>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" id="subject" required placeholder=" ">
+                                <label for="subject">Subject</label>
+                                <span class="input-line"></span>
+                            </div>
+                            <div class="input-group">
+                                <textarea id="message" required rows="5" placeholder=" "></textarea>
+                                <label for="message">Message</label>
+                                <span class="input-line"></span>
+                            </div>
+                            <button type="submit" class="primary-btn btn-send-message">Send Message <i class="fa-regular fa-paper-plane"></i></button>
+                        </form>
+                        <div id="form-feedback" class="form-feedback"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2026 Muthu Venkatesh P. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/muthu-venkatesh-p-b51364289" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:muthuvenkatesh2207@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                <a href="tel:+919444819675"><i class="fa-solid fa-phone"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals for Projects -->
+    <!-- Modal: Scotch Yoke -->
+    <div class="modal" id="modal-scotch-yoke">
+        <div class="modal-content glassmorphism">
+            <button class="close-modal-btn" aria-label="Close modal">&times;</button>
+            <span class="modal-category">Project Details</span>
+            <h2>Scotch Yoke Mechanism Implementation</h2>
+            <div class="modal-divider"></div>
+            <div class="modal-body-scroll">
+                <h3>Overview</h3>
+                <p>This project involved designing, CAD modeling, and fabricating a functional prototype of a Scotch Yoke mechanism. A Scotch Yoke converts rotary motion into linear reciprocating motion (and vice-versa). It is commonly utilized in control valve actuators, high-pressure gas compressors, and some specialized internal combustion engines.</p>
+                
+                <h3>Key Accomplishments</h3>
+                <ul class="modal-list">
+                    <li><strong>3D CAD Modeling:</strong> Developed full parameter-driven models for the crank, yoke, guide paths, and slider pin assembly in SolidWorks.</li>
+                    <li><strong>Kinematic Analysis:</strong> Conducted geometric simulations to verify velocity and acceleration profiles of the slider, proving pure sinusoidal motion.</li>
+                    <li><strong>3D Printing Fabrication:</strong> Exported design components as STLs and configured 3D printer parameters (slicing density, shell thicknesses, PLA material cooling rates) to print and assemble a functional physical model demonstrating the conversion mechanism.</li>
+                </ul>
+
+                <h3>Technical Specifications</h3>
+                <table class="modal-table">
+                    <tr>
+                        <td><strong>CAD Tools</strong></td>
+                        <td>SolidWorks 2024</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fabrication</strong></td>
+                        <td>Fused Deposition Modeling (FDM) / PLA Filament</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Output Behavior</strong></td>
+                        <td>Pure Simple Harmonic Motion (SHM)</td>
+                    </tr>
+                </table>
+
+                <h3>Interactive Kinematic Simulator</h3>
+                <p>Adjust the controls below to visualize the conversion of rotary motion (crank) to linear motion (yoke) and see real-time kinematic calculations.</p>
+                
+                <div class="simulator-container">
+                    <div class="canvas-wrapper">
+                        <canvas id="yoke-canvas" width="400" height="220"></canvas>
+                    </div>
+                    <div class="simulator-controls">
+                        <div class="control-group">
+                            <label for="crank-speed">Crank Speed: <span id="speed-val">30</span> RPM</label>
+                            <input type="range" id="crank-speed" min="5" max="100" value="30">
+                        </div>
+                        <div class="control-group">
+                            <label for="crank-radius">Crank Radius: <span id="radius-val">40</span> mm</label>
+                            <input type="range" id="crank-radius" min="20" max="60" value="40">
+                        </div>
+                        <button id="btn-toggle-sim" class="primary-btn"><i class="fa-solid fa-pause"></i> Pause Simulation</button>
+                    </div>
+                    <div class="simulator-readouts">
+                        <div class="readout-box">
+                            <span class="readout-label">Crank Angle (&theta;)</span>
+                            <span class="readout-val" id="val-angle">0.0&deg;</span>
+                        </div>
+                        <div class="readout-box">
+                            <span class="readout-label">Displacement (x)</span>
+                            <span class="readout-val" id="val-disp">0.0 mm</span>
+                        </div>
+                        <div class="readout-box">
+                            <span class="readout-label">Velocity (v)</span>
+                            <span class="readout-val" id="val-vel">0.0 mm/s</span>
+                        </div>
+                        <div class="readout-box">
+                            <span class="readout-label">Acceleration (a)</span>
+                            <span class="readout-val" id="val-acc">0.0 mm/s&sup2;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: Multistage Filter -->
+    <div class="modal" id="modal-multistage-filter">
+        <div class="modal-content glassmorphism">
+            <button class="close-modal-btn" aria-label="Close modal">&times;</button>
+            <span class="modal-category">Project Details</span>
+            <h2>Portable Inlet Mounted Multistage Filter</h2>
+            <div class="modal-divider"></div>
+            <div class="modal-body-scroll">
+                <h3>Overview</h3>
+                <p>Designed a portable, multi-layer radial water filtration unit meant to be mounted directly onto the inlet pipe of domestic overhead water tanks. This system solves a common household issue: impurities, sand, silt, and rust clogging piping and settling inside the overhead tank, necessitating frequent, tedious manual tank cleanings.</p>
+                
+                <h3>Key Accomplishments</h3>
+                <ul class="modal-list">
+                    <li><strong>Radial Multi-Layer Filtration:</strong> Engineered concentric filtration stages containing mesh screens, activated charcoal, and coarse sand aggregates to extract sediment and particles progressively.</li>
+                    <li><strong>Inlet Mounting Compatibility:</strong> Conceptualized a lightweight housing with quick-connect threads matching standard municipal/pump inlet pipes, making installation and removal simple.</li>
+                    <li><strong>Performance benefits:</strong> Successfully removed sand, silt, and heavy suspended impurities from incoming water supplies. Resulted in significantly cleaner overhead storage and extended plumbing appliance lifetimes.</li>
+                </ul>
+
+                <h3>Technical Specifications</h3>
+                <table class="modal-table">
+                    <tr>
+                        <td><strong>Key Functions</strong></td>
+                        <td>Particulate Filtration, Silt & Sediment Extraction</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Mount Type</strong></td>
+                        <td>Standard Inlet Gravity/Pressure Fit Threaded Connection</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Media Layers</strong></td>
+                        <td>Graded Mesh, Activated Carbon, Fine Aggregate</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: Sprocket Analysis -->
+    <div class="modal" id="modal-sprocket-analysis">
+        <div class="modal-content glassmorphism">
+            <button class="close-modal-btn" aria-label="Close modal">&times;</button>
+            <span class="modal-category">Project Details</span>
+            <h2>Material-Based Performance Evaluation of Sprocket</h2>
+            <div class="modal-divider"></div>
+            <div class="modal-body-scroll">
+                <h3>Overview</h3>
+                <p>This project focused on the structural integrity, stress distribution, and fatigue lifecycle analysis of power transmission sprockets. Using finite element analysis (FEA), the mechanical behavior of a typical chain drive sprocket was simulated under peak loads to identify failure points and compare the performance of different materials.</p>
+                
+                <h3>Key Accomplishments</h3>
+                <ul class="modal-list">
+                    <li><strong>FEA Setup & Meshing:</strong> Import SolidWorks geometry into ANSYS Workbench, apply localized grid refinement at the root of the sprocket teeth to capture high stress gradients accurately.</li>
+                    <li><strong>Static Structural Simulation:</strong> Modeled torque loadings, applying boundary constraints (fixed hubs and tangential forces at teeth interaction points) to extract Von Mises stresses and deformations.</li>
+                    <li><strong>Fatigue & Lifecycle Estimation:</strong> Evaluated stress-life curves (S-N curves) to compare structural steel, cast iron, and aluminum alloy. Identified the optimal material balancing weight, cost, and lifecycle duration.</li>
+                </ul>
+
+                <h3>Technical Specifications</h3>
+                <table class="modal-table">
+                    <tr>
+                        <td><strong>Analysis Package</strong></td>
+                        <td>ANSYS Static Structural & Fatigue Tool</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Meshing Technique</strong></td>
+                        <td>Octree Hex-dominant mesh with inflation layers at teeth fillets</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Evaluated Materials</strong></td>
+                        <td>Structural Steel, Grey Cast Iron, Aluminum 6061-T6</td>
+                    </tr>
+                </table>
+
+                <h3>FEA Material Performance Comparison</h3>
+                <p>Select a material below to view simulated FEA stress distribution and lifecycle metrics under peak torque loadings (500 N&middot;m).</p>
+                
+                <div class="fea-simulator">
+                    <div class="fea-materials-tabs">
+                        <button class="fea-tab active" data-material="steel">Structural Steel</button>
+                        <button class="fea-tab" data-material="castiron">Grey Cast Iron</button>
+                        <button class="fea-tab" data-material="aluminum">Aluminum 6061-T6</button>
+                    </div>
+                    
+                    <div class="fea-result-display">
+                        <div class="fea-visual-preview">
+                            <div class="sprocket-mesh-indicator">
+                                <div class="sprocket-spoke-glow" id="mesh-glow"></div>
+                                <div class="sprocket-mesh-text" id="mesh-stress-label">Max Stress: 125.4 MPa</div>
+                            </div>
+                        </div>
+                        
+                        <div class="fea-metrics-table">
+                            <div class="fea-metric-row">
+                                <span>Yield Strength</span>
+                                <span id="fea-yield">250 MPa</span>
+                            </div>
+                            <div class="fea-metric-row">
+                                <span>Max Von Mises Stress</span>
+                                <span id="fea-stress" class="stress-ok">125.4 MPa</span>
+                            </div>
+                            <div class="fea-metric-row">
+                                <span>Max Displacement</span>
+                                <span id="fea-disp">0.042 mm</span>
+                            </div>
+                            <div class="fea-metric-row">
+                                <span>Safety Factor</span>
+                                <span id="fea-safety" class="safety-high">1.99</span>
+                            </div>
+                            <div class="fea-metric-row">
+                                <span>Estimated Fatigue Life</span>
+                                <span id="fea-life">1.2 x 10<sup>6</sup> cycles</span>
+                            </div>
+                            <div class="fea-metric-row">
+                                <span>Component Weight</span>
+                                <span id="fea-weight">1.45 kg</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: Additive Manufacturing Certificate -->
+    <div class="modal" id="modal-cert-additive-manufacturing">
+        <div class="modal-content glassmorphism">
+            <button class="close-modal-btn" aria-label="Close modal">&times;</button>
+            <span class="modal-category">Verified Credential</span>
+            <h2>Certificate of Completion</h2>
+            <div class="modal-divider"></div>
+            
+            <div class="certificate-mockup">
+                <div class="cert-border-outer">
+                    <div class="cert-border-inner">
+                        <div class="cert-header">
+                            <div class="ds-logo">
+                                <span class="ds-d">3D</span><span class="ds-text">DASSAULT SYSTEMES</span>
+                            </div>
+                            <span class="cert-cswa">SOLIDWORKS CERTIFICATION</span>
+                        </div>
+                        
+                        <div class="cert-title-area">
+                            <span class="cert-presents">This is to certify that</span>
+                            <h3 class="cert-recipient">MUTHU VENKATESH P</h3>
+                            <span class="cert-fulfilled">has successfully completed the certification requirements and is designated as an</span>
+                            <h4 class="cert-achievement">Additive Manufacturing Associate</h4>
+                        </div>
+                        
+                        <div class="cert-footer">
+                            <div class="cert-meta-item">
+                                <span class="meta-label">Date Completed</span>
+                                <span class="meta-val">July 2024</span>
+                            </div>
+                            <div class="cert-seal">
+                                <div class="gold-seal">
+                                    <span>DS</span>
+                                </div>
+                            </div>
+                            <div class="cert-meta-item">
+                                <span class="meta-label">Verification ID</span>
+                                <span class="meta-val">C-8Y9X2W7V4U</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cert-verification-details" style="display: flex; flex-direction: column; gap: 15px;">
+                <p>This certificate represents verified proof of professional mastery in additive manufacturing processes, machine setup, slicing parameters, and mechanical design for 3D printing, issued by <strong>Dassault Syst&egrave;mes</strong>.</p>
+                <a href="cswa_additive_manufacturing.pdf" target="_blank" class="primary-btn" style="align-self: center; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; font-size: 0.85rem; padding: 10px 20px;">
+                    <i class="fa-regular fa-file-pdf"></i> Open Official Certificate (PDF)
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
